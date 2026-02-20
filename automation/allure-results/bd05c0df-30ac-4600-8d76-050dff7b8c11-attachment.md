@@ -1,0 +1,1020 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Zyphroa" [ref=e3] [cursor=pointer]:
+      - /url: home.html
+    - searchbox "Search products" [ref=e5]
+    - generic [ref=e6]:
+      - link "Home" [ref=e7] [cursor=pointer]:
+        - /url: home.html
+      - link "Cart0" [ref=e8] [cursor=pointer]:
+        - /url: cart.html
+      - link "Orders" [ref=e9] [cursor=pointer]:
+        - /url: orders.html
+      - link "Logout" [ref=e10] [cursor=pointer]:
+        - /url: index.html
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - article [ref=e14]:
+        - link "Smart LED TV 43 inch" [ref=e15] [cursor=pointer]:
+          - /url: product.html?id=1
+          - img "Smart LED TV 43 inch" [ref=e16]
+        - generic [ref=e17]:
+          - heading "Smart LED TV 43 inch" [level=2] [ref=e18]
+          - paragraph [ref=e19]: ₹32,999
+          - paragraph [ref=e20]: ★ 4.5
+          - link "View Details" [ref=e21] [cursor=pointer]:
+            - /url: product.html?id=1
+      - article [ref=e22]:
+        - link "Wireless Bluetooth Earphones" [ref=e23] [cursor=pointer]:
+          - /url: product.html?id=2
+          - img "Wireless Bluetooth Earphones" [ref=e24]
+        - generic [ref=e25]:
+          - heading "Wireless Bluetooth Earphones" [level=2] [ref=e26]
+          - paragraph [ref=e27]: ₹1,499
+          - paragraph [ref=e28]: ★ 4.3
+          - link "View Details" [ref=e29] [cursor=pointer]:
+            - /url: product.html?id=2
+      - article [ref=e30]:
+        - link "Microwave Oven 20L" [ref=e31] [cursor=pointer]:
+          - /url: product.html?id=3
+          - img "Microwave Oven 20L" [ref=e32]
+        - generic [ref=e33]:
+          - heading "Microwave Oven 20L" [level=2] [ref=e34]
+          - paragraph [ref=e35]: ₹5,499
+          - paragraph [ref=e36]: ★ 4.4
+          - link "View Details" [ref=e37] [cursor=pointer]:
+            - /url: product.html?id=3
+      - article [ref=e38]:
+        - link "Electric Kettle 1.5L" [ref=e39] [cursor=pointer]:
+          - /url: product.html?id=4
+          - img "Electric Kettle 1.5L" [ref=e40]
+        - generic [ref=e41]:
+          - heading "Electric Kettle 1.5L" [level=2] [ref=e42]
+          - paragraph [ref=e43]: ₹899
+          - paragraph [ref=e44]: ★ 4.6
+          - link "View Details" [ref=e45] [cursor=pointer]:
+            - /url: product.html?id=4
+      - article [ref=e46]:
+        - link "Laptop Stand Aluminum" [ref=e47] [cursor=pointer]:
+          - /url: product.html?id=5
+          - img "Laptop Stand Aluminum" [ref=e48]
+        - generic [ref=e49]:
+          - heading "Laptop Stand Aluminum" [level=2] [ref=e50]
+          - paragraph [ref=e51]: ₹1,299
+          - paragraph [ref=e52]: ★ 4.2
+          - link "View Details" [ref=e53] [cursor=pointer]:
+            - /url: product.html?id=5
+      - article [ref=e54]:
+        - link "Smartphone 128GB" [ref=e55] [cursor=pointer]:
+          - /url: product.html?id=6
+          - img "Smartphone 128GB" [ref=e56]
+        - generic [ref=e57]:
+          - heading "Smartphone 128GB" [level=2] [ref=e58]
+          - paragraph [ref=e59]: ₹24,999
+          - paragraph [ref=e60]: ★ 4.5
+          - link "View Details" [ref=e61] [cursor=pointer]:
+            - /url: product.html?id=6
+      - article [ref=e62]:
+        - link "Air Fryer 4.2L" [ref=e63] [cursor=pointer]:
+          - /url: product.html?id=7
+          - img "Air Fryer 4.2L" [ref=e64]
+        - generic [ref=e65]:
+          - heading "Air Fryer 4.2L" [level=2] [ref=e66]
+          - paragraph [ref=e67]: ₹4,499
+          - paragraph [ref=e68]: ★ 4.4
+          - link "View Details" [ref=e69] [cursor=pointer]:
+            - /url: product.html?id=7
+      - article [ref=e70]:
+        - link "USB-C Hub 7-in-1" [ref=e71] [cursor=pointer]:
+          - /url: product.html?id=8
+          - img "USB-C Hub 7-in-1" [ref=e72]
+        - generic [ref=e73]:
+          - heading "USB-C Hub 7-in-1" [level=2] [ref=e74]
+          - paragraph [ref=e75]: ₹1,899
+          - paragraph [ref=e76]: ★ 4.1
+          - link "View Details" [ref=e77] [cursor=pointer]:
+            - /url: product.html?id=8
+      - article [ref=e78]:
+        - link "Bluetooth Speaker" [ref=e79] [cursor=pointer]:
+          - /url: product.html?id=9
+          - img "Bluetooth Speaker" [ref=e80]
+        - generic [ref=e81]:
+          - heading "Bluetooth Speaker" [level=2] [ref=e82]
+          - paragraph [ref=e83]: ₹1,999
+          - paragraph [ref=e84]: ★ 4.3
+          - link "View Details" [ref=e85] [cursor=pointer]:
+            - /url: product.html?id=9
+      - article [ref=e86]:
+        - link "Iron with Steam" [ref=e87] [cursor=pointer]:
+          - /url: product.html?id=10
+          - img "Iron with Steam" [ref=e88]
+        - generic [ref=e89]:
+          - heading "Iron with Steam" [level=2] [ref=e90]
+          - paragraph [ref=e91]: ₹1,299
+          - paragraph [ref=e92]: ★ 4
+          - link "View Details" [ref=e93] [cursor=pointer]:
+            - /url: product.html?id=10
+      - article [ref=e94]:
+        - link "Power Bank 20000mAh" [ref=e95] [cursor=pointer]:
+          - /url: product.html?id=11
+          - img "Power Bank 20000mAh" [ref=e96]
+        - generic [ref=e97]:
+          - heading "Power Bank 20000mAh" [level=2] [ref=e98]
+          - paragraph [ref=e99]: ₹1,499
+          - paragraph [ref=e100]: ★ 4.4
+          - link "View Details" [ref=e101] [cursor=pointer]:
+            - /url: product.html?id=11
+      - article [ref=e102]:
+        - link "Wireless Mouse" [ref=e103] [cursor=pointer]:
+          - /url: product.html?id=12
+          - img "Wireless Mouse" [ref=e104]
+        - generic [ref=e105]:
+          - heading "Wireless Mouse" [level=2] [ref=e106]
+          - paragraph [ref=e107]: ₹599
+          - paragraph [ref=e108]: ★ 4.2
+          - link "View Details" [ref=e109] [cursor=pointer]:
+            - /url: product.html?id=12
+      - article [ref=e110]:
+        - link "Mixer Grinder 750W" [ref=e111] [cursor=pointer]:
+          - /url: product.html?id=13
+          - img "Mixer Grinder 750W" [ref=e112]
+        - generic [ref=e113]:
+          - heading "Mixer Grinder 750W" [level=2] [ref=e114]
+          - paragraph [ref=e115]: ₹3,299
+          - paragraph [ref=e116]: ★ 4.5
+          - link "View Details" [ref=e117] [cursor=pointer]:
+            - /url: product.html?id=13
+      - article [ref=e118]:
+        - link "Table Lamp LED" [ref=e119] [cursor=pointer]:
+          - /url: product.html?id=14
+          - img "Table Lamp LED" [ref=e120]
+        - generic [ref=e121]:
+          - heading "Table Lamp LED" [level=2] [ref=e122]
+          - paragraph [ref=e123]: ₹799
+          - paragraph [ref=e124]: ★ 4
+          - link "View Details" [ref=e125] [cursor=pointer]:
+            - /url: product.html?id=14
+      - article [ref=e126]:
+        - link "Mechanical Keyboard" [ref=e127] [cursor=pointer]:
+          - /url: product.html?id=15
+          - img "Mechanical Keyboard" [ref=e128]
+        - generic [ref=e129]:
+          - heading "Mechanical Keyboard" [level=2] [ref=e130]
+          - paragraph [ref=e131]: ₹3,999
+          - paragraph [ref=e132]: ★ 4.6
+          - link "View Details" [ref=e133] [cursor=pointer]:
+            - /url: product.html?id=15
+      - article [ref=e134]:
+        - link "Smart Watch" [ref=e135] [cursor=pointer]:
+          - /url: product.html?id=16
+          - img "Smart Watch" [ref=e136]
+        - generic [ref=e137]:
+          - heading "Smart Watch" [level=2] [ref=e138]
+          - paragraph [ref=e139]: ₹2,999
+          - paragraph [ref=e140]: ★ 4.3
+          - link "View Details" [ref=e141] [cursor=pointer]:
+            - /url: product.html?id=16
+      - article [ref=e142]:
+        - link "Trimmer for Men" [ref=e143] [cursor=pointer]:
+          - /url: product.html?id=17
+          - img "Trimmer for Men" [ref=e144]
+        - generic [ref=e145]:
+          - heading "Trimmer for Men" [level=2] [ref=e146]
+          - paragraph [ref=e147]: ₹999
+          - paragraph [ref=e148]: ★ 4.2
+          - link "View Details" [ref=e149] [cursor=pointer]:
+            - /url: product.html?id=17
+      - article [ref=e150]:
+        - link "Phone Holder Car" [ref=e151] [cursor=pointer]:
+          - /url: product.html?id=18
+          - img "Phone Holder Car" [ref=e152]
+        - generic [ref=e153]:
+          - heading "Phone Holder Car" [level=2] [ref=e154]
+          - paragraph [ref=e155]: ₹399
+          - paragraph [ref=e156]: ★ 4.1
+          - link "View Details" [ref=e157] [cursor=pointer]:
+            - /url: product.html?id=18
+      - article [ref=e158]:
+        - link "Gaming Headset 7.1" [ref=e159] [cursor=pointer]:
+          - /url: product.html?id=19
+          - img "Gaming Headset 7.1" [ref=e160]
+        - generic [ref=e161]:
+          - heading "Gaming Headset 7.1" [level=2] [ref=e162]
+          - paragraph [ref=e163]: ₹2,499
+          - paragraph [ref=e164]: ★ 4.5
+          - link "View Details" [ref=e165] [cursor=pointer]:
+            - /url: product.html?id=19
+      - article [ref=e166]:
+        - link "External SSD 1TB" [ref=e167] [cursor=pointer]:
+          - /url: product.html?id=20
+          - img "External SSD 1TB" [ref=e168]
+        - generic [ref=e169]:
+          - heading "External SSD 1TB" [level=2] [ref=e170]
+          - paragraph [ref=e171]: ₹7,499
+          - paragraph [ref=e172]: ★ 4.8
+          - link "View Details" [ref=e173] [cursor=pointer]:
+            - /url: product.html?id=20
+      - article [ref=e174]:
+        - link "Coffee Maker 600ml" [ref=e175] [cursor=pointer]:
+          - /url: product.html?id=21
+          - img "Coffee Maker 600ml" [ref=e176]
+        - generic [ref=e177]:
+          - heading "Coffee Maker 600ml" [level=2] [ref=e178]
+          - paragraph [ref=e179]: ₹1,899
+          - paragraph [ref=e180]: ★ 4.2
+          - link "View Details" [ref=e181] [cursor=pointer]:
+            - /url: product.html?id=21
+      - article [ref=e182]:
+        - link "Yoga Mat 6mm" [ref=e183] [cursor=pointer]:
+          - /url: product.html?id=22
+          - img "Yoga Mat 6mm" [ref=e184]
+        - generic [ref=e185]:
+          - heading "Yoga Mat 6mm" [level=2] [ref=e186]
+          - paragraph [ref=e187]: ₹699
+          - paragraph [ref=e188]: ★ 4.4
+          - link "View Details" [ref=e189] [cursor=pointer]:
+            - /url: product.html?id=22
+      - article [ref=e190]:
+        - link "Dumbbells Set 5kg" [ref=e191] [cursor=pointer]:
+          - /url: product.html?id=23
+          - img "Dumbbells Set 5kg" [ref=e192]
+        - generic [ref=e193]:
+          - heading "Dumbbells Set 5kg" [level=2] [ref=e194]
+          - paragraph [ref=e195]: ₹1,599
+          - paragraph [ref=e196]: ★ 4.5
+          - link "View Details" [ref=e197] [cursor=pointer]:
+            - /url: product.html?id=23
+      - article [ref=e198]:
+        - link "Resistance Bands" [ref=e199] [cursor=pointer]:
+          - /url: product.html?id=24
+          - img "Resistance Bands" [ref=e200]
+        - generic [ref=e201]:
+          - heading "Resistance Bands" [level=2] [ref=e202]
+          - paragraph [ref=e203]: ₹499
+          - paragraph [ref=e204]: ★ 4.1
+          - link "View Details" [ref=e205] [cursor=pointer]:
+            - /url: product.html?id=24
+      - article [ref=e206]:
+        - link "Office Chair Mesh" [ref=e207] [cursor=pointer]:
+          - /url: product.html?id=25
+          - img "Office Chair Mesh" [ref=e208]
+        - generic [ref=e209]:
+          - heading "Office Chair Mesh" [level=2] [ref=e210]
+          - paragraph [ref=e211]: ₹6,999
+          - paragraph [ref=e212]: ★ 4.3
+          - link "View Details" [ref=e213] [cursor=pointer]:
+            - /url: product.html?id=25
+      - article [ref=e214]:
+        - link "Webcam 1080p" [ref=e215] [cursor=pointer]:
+          - /url: product.html?id=26
+          - img "Webcam 1080p" [ref=e216]
+        - generic [ref=e217]:
+          - heading "Webcam 1080p" [level=2] [ref=e218]
+          - paragraph [ref=e219]: ₹2,199
+          - paragraph [ref=e220]: ★ 4.2
+          - link "View Details" [ref=e221] [cursor=pointer]:
+            - /url: product.html?id=26
+      - article [ref=e222]:
+        - link "E-Reader 6 inch" [ref=e223] [cursor=pointer]:
+          - /url: product.html?id=27
+          - img "E-Reader 6 inch" [ref=e224]
+        - generic [ref=e225]:
+          - heading "E-Reader 6 inch" [level=2] [ref=e226]
+          - paragraph [ref=e227]: ₹9,999
+          - paragraph [ref=e228]: ★ 4.7
+          - link "View Details" [ref=e229] [cursor=pointer]:
+            - /url: product.html?id=27
+      - article [ref=e230]:
+        - link "Backpack 30L" [ref=e231] [cursor=pointer]:
+          - /url: product.html?id=28
+          - img "Backpack 30L" [ref=e232]
+        - generic [ref=e233]:
+          - heading "Backpack 30L" [level=2] [ref=e234]
+          - paragraph [ref=e235]: ₹1,499
+          - paragraph [ref=e236]: ★ 4.4
+          - link "View Details" [ref=e237] [cursor=pointer]:
+            - /url: product.html?id=28
+      - article [ref=e238]:
+        - link "Hand Blender 300W" [ref=e239] [cursor=pointer]:
+          - /url: product.html?id=29
+          - img "Hand Blender 300W" [ref=e240]
+        - generic [ref=e241]:
+          - heading "Hand Blender 300W" [level=2] [ref=e242]
+          - paragraph [ref=e243]: ₹1,199
+          - paragraph [ref=e244]: ★ 4.3
+          - link "View Details" [ref=e245] [cursor=pointer]:
+            - /url: product.html?id=29
+      - article [ref=e246]:
+        - link "Monitor 24 inch" [ref=e247] [cursor=pointer]:
+          - /url: product.html?id=30
+          - img "Monitor 24 inch" [ref=e248]
+        - generic [ref=e249]:
+          - heading "Monitor 24 inch" [level=2] [ref=e250]
+          - paragraph [ref=e251]: ₹8,999
+          - paragraph [ref=e252]: ★ 4.5
+          - link "View Details" [ref=e253] [cursor=pointer]:
+            - /url: product.html?id=30
+      - article [ref=e254]:
+        - link "Gaming Mouse Pad" [ref=e255] [cursor=pointer]:
+          - /url: product.html?id=31
+          - img "Gaming Mouse Pad" [ref=e256]
+        - generic [ref=e257]:
+          - heading "Gaming Mouse Pad" [level=2] [ref=e258]
+          - paragraph [ref=e259]: ₹499
+          - paragraph [ref=e260]: ★ 4.6
+          - link "View Details" [ref=e261] [cursor=pointer]:
+            - /url: product.html?id=31
+      - article [ref=e262]:
+        - link "DSLR Camera" [ref=e263] [cursor=pointer]:
+          - /url: product.html?id=32
+          - img "DSLR Camera" [ref=e264]
+        - generic [ref=e265]:
+          - heading "DSLR Camera" [level=2] [ref=e266]
+          - paragraph [ref=e267]: ₹45,999
+          - paragraph [ref=e268]: ★ 4.8
+          - link "View Details" [ref=e269] [cursor=pointer]:
+            - /url: product.html?id=32
+      - article [ref=e270]:
+        - link "Toaster 2 Slice" [ref=e271] [cursor=pointer]:
+          - /url: product.html?id=33
+          - img "Toaster 2 Slice" [ref=e272]
+        - generic [ref=e273]:
+          - heading "Toaster 2 Slice" [level=2] [ref=e274]
+          - paragraph [ref=e275]: ₹1,299
+          - paragraph [ref=e276]: ★ 4.2
+          - link "View Details" [ref=e277] [cursor=pointer]:
+            - /url: product.html?id=33
+      - article [ref=e278]:
+        - link "Desk Organizer" [ref=e279] [cursor=pointer]:
+          - /url: product.html?id=34
+          - img "Desk Organizer" [ref=e280]
+        - generic [ref=e281]:
+          - heading "Desk Organizer" [level=2] [ref=e282]
+          - paragraph [ref=e283]: ₹599
+          - paragraph [ref=e284]: ★ 4
+          - link "View Details" [ref=e285] [cursor=pointer]:
+            - /url: product.html?id=34
+      - article [ref=e286]:
+        - link "Soundbar 120W" [ref=e287] [cursor=pointer]:
+          - /url: product.html?id=35
+          - img "Soundbar 120W" [ref=e288]
+        - generic [ref=e289]:
+          - heading "Soundbar 120W" [level=2] [ref=e290]
+          - paragraph [ref=e291]: ₹6,499
+          - paragraph [ref=e292]: ★ 4.4
+          - link "View Details" [ref=e293] [cursor=pointer]:
+            - /url: product.html?id=35
+      - article [ref=e294]:
+        - link "HDMI Cable 1.5m" [ref=e295] [cursor=pointer]:
+          - /url: product.html?id=36
+          - img "HDMI Cable 1.5m" [ref=e296]
+        - generic [ref=e297]:
+          - heading "HDMI Cable 1.5m" [level=2] [ref=e298]
+          - paragraph [ref=e299]: ₹299
+          - paragraph [ref=e300]: ★ 4.5
+          - link "View Details" [ref=e301] [cursor=pointer]:
+            - /url: product.html?id=36
+      - article [ref=e302]:
+        - link "Digital Kitchen Scale" [ref=e303] [cursor=pointer]:
+          - /url: product.html?id=37
+          - img "Digital Kitchen Scale" [ref=e304]
+        - generic [ref=e305]:
+          - heading "Digital Kitchen Scale" [level=2] [ref=e306]
+          - paragraph [ref=e307]: ₹699
+          - paragraph [ref=e308]: ★ 4.3
+          - link "View Details" [ref=e309] [cursor=pointer]:
+            - /url: product.html?id=37
+      - article [ref=e310]:
+        - link "Running Shoes" [ref=e311] [cursor=pointer]:
+          - /url: product.html?id=38
+          - img "Running Shoes" [ref=e312]
+        - generic [ref=e313]:
+          - heading "Running Shoes" [level=2] [ref=e314]
+          - paragraph [ref=e315]: ₹2,499
+          - paragraph [ref=e316]: ★ 4.5
+          - link "View Details" [ref=e317] [cursor=pointer]:
+            - /url: product.html?id=38
+      - article [ref=e318]:
+        - link "Water Bottle 1L" [ref=e319] [cursor=pointer]:
+          - /url: product.html?id=39
+          - img "Water Bottle 1L" [ref=e320]
+        - generic [ref=e321]:
+          - heading "Water Bottle 1L" [level=2] [ref=e322]
+          - paragraph [ref=e323]: ₹399
+          - paragraph [ref=e324]: ★ 4.4
+          - link "View Details" [ref=e325] [cursor=pointer]:
+            - /url: product.html?id=39
+      - article [ref=e326]:
+        - link "Electric Toothbrush" [ref=e327] [cursor=pointer]:
+          - /url: product.html?id=40
+          - img "Electric Toothbrush" [ref=e328]
+        - generic [ref=e329]:
+          - heading "Electric Toothbrush" [level=2] [ref=e330]
+          - paragraph [ref=e331]: ₹1,499
+          - paragraph [ref=e332]: ★ 4.6
+          - link "View Details" [ref=e333] [cursor=pointer]:
+            - /url: product.html?id=40
+      - article [ref=e334]:
+        - link "Rice Cooker 1.8L" [ref=e335] [cursor=pointer]:
+          - /url: product.html?id=41
+          - img "Rice Cooker 1.8L" [ref=e336]
+        - generic [ref=e337]:
+          - heading "Rice Cooker 1.8L" [level=2] [ref=e338]
+          - paragraph [ref=e339]: ₹2,199
+          - paragraph [ref=e340]: ★ 4.2
+          - link "View Details" [ref=e341] [cursor=pointer]:
+            - /url: product.html?id=41
+      - article [ref=e342]:
+        - link "Bluetooth Mouse" [ref=e343] [cursor=pointer]:
+          - /url: product.html?id=42
+          - img "Bluetooth Mouse" [ref=e344]
+        - generic [ref=e345]:
+          - heading "Bluetooth Mouse" [level=2] [ref=e346]
+          - paragraph [ref=e347]: ₹899
+          - paragraph [ref=e348]: ★ 4.1
+          - link "View Details" [ref=e349] [cursor=pointer]:
+            - /url: product.html?id=42
+      - article [ref=e350]:
+        - link "Projector 1080p" [ref=e351] [cursor=pointer]:
+          - /url: product.html?id=43
+          - img "Projector 1080p" [ref=e352]
+        - generic [ref=e353]:
+          - heading "Projector 1080p" [level=2] [ref=e354]
+          - paragraph [ref=e355]: ₹12,999
+          - paragraph [ref=e356]: ★ 4.3
+          - link "View Details" [ref=e357] [cursor=pointer]:
+            - /url: product.html?id=43
+      - article [ref=e358]:
+        - link "Floor Lamp" [ref=e359] [cursor=pointer]:
+          - /url: product.html?id=44
+          - img "Floor Lamp" [ref=e360]
+        - generic [ref=e361]:
+          - heading "Floor Lamp" [level=2] [ref=e362]
+          - paragraph [ref=e363]: ₹2,499
+          - paragraph [ref=e364]: ★ 4.4
+          - link "View Details" [ref=e365] [cursor=pointer]:
+            - /url: product.html?id=44
+      - article [ref=e366]:
+        - link "Fitness Tracker" [ref=e367] [cursor=pointer]:
+          - /url: product.html?id=45
+          - img "Fitness Tracker" [ref=e368]
+        - generic [ref=e369]:
+          - heading "Fitness Tracker" [level=2] [ref=e370]
+          - paragraph [ref=e371]: ₹1,999
+          - paragraph [ref=e372]: ★ 4.2
+          - link "View Details" [ref=e373] [cursor=pointer]:
+            - /url: product.html?id=45
+      - article [ref=e374]:
+        - link "Paper Shredder" [ref=e375] [cursor=pointer]:
+          - /url: product.html?id=46
+          - img "Paper Shredder" [ref=e376]
+        - generic [ref=e377]:
+          - heading "Paper Shredder" [level=2] [ref=e378]
+          - paragraph [ref=e379]: ₹3,499
+          - paragraph [ref=e380]: ★ 4
+          - link "View Details" [ref=e381] [cursor=pointer]:
+            - /url: product.html?id=46
+      - article [ref=e382]:
+        - link "Mini Fridge 45L" [ref=e383] [cursor=pointer]:
+          - /url: product.html?id=47
+          - img "Mini Fridge 45L" [ref=e384]
+        - generic [ref=e385]:
+          - heading "Mini Fridge 45L" [level=2] [ref=e386]
+          - paragraph [ref=e387]: ₹8,999
+          - paragraph [ref=e388]: ★ 4.5
+          - link "View Details" [ref=e389] [cursor=pointer]:
+            - /url: product.html?id=47
+      - article [ref=e390]:
+        - link "Action Camera 4K" [ref=e391] [cursor=pointer]:
+          - /url: product.html?id=48
+          - img "Action Camera 4K" [ref=e392]
+        - generic [ref=e393]:
+          - heading "Action Camera 4K" [level=2] [ref=e394]
+          - paragraph [ref=e395]: ₹5,999
+          - paragraph [ref=e396]: ★ 4.3
+          - link "View Details" [ref=e397] [cursor=pointer]:
+            - /url: product.html?id=48
+      - article [ref=e398]:
+        - link "Portable Hard Drive 2TB" [ref=e399] [cursor=pointer]:
+          - /url: product.html?id=49
+          - img "Portable Hard Drive 2TB" [ref=e400]
+        - generic [ref=e401]:
+          - heading "Portable Hard Drive 2TB" [level=2] [ref=e402]
+          - paragraph [ref=e403]: ₹5,499
+          - paragraph [ref=e404]: ★ 4.7
+          - link "View Details" [ref=e405] [cursor=pointer]:
+            - /url: product.html?id=49
+      - article [ref=e406]:
+        - link "Coffee Grinder" [ref=e407] [cursor=pointer]:
+          - /url: product.html?id=50
+          - img "Coffee Grinder" [ref=e408]
+        - generic [ref=e409]:
+          - heading "Coffee Grinder" [level=2] [ref=e410]
+          - paragraph [ref=e411]: ₹1,499
+          - paragraph [ref=e412]: ★ 4.1
+          - link "View Details" [ref=e413] [cursor=pointer]:
+            - /url: product.html?id=50
+      - article [ref=e414]:
+        - link "Graphics Tablet" [ref=e415] [cursor=pointer]:
+          - /url: product.html?id=51
+          - img "Graphics Tablet" [ref=e416]
+        - generic [ref=e417]:
+          - heading "Graphics Tablet" [level=2] [ref=e418]
+          - paragraph [ref=e419]: ₹4,999
+          - paragraph [ref=e420]: ★ 4.5
+          - link "View Details" [ref=e421] [cursor=pointer]:
+            - /url: product.html?id=51
+      - article [ref=e422]:
+        - link "Hair Dryer 1200W" [ref=e423] [cursor=pointer]:
+          - /url: product.html?id=52
+          - img "Hair Dryer 1200W" [ref=e424]
+        - generic [ref=e425]:
+          - heading "Hair Dryer 1200W" [level=2] [ref=e426]
+          - paragraph [ref=e427]: ₹899
+          - paragraph [ref=e428]: ★ 4.3
+          - link "View Details" [ref=e429] [cursor=pointer]:
+            - /url: product.html?id=52
+      - article [ref=e430]:
+        - link "Wall Clock" [ref=e431] [cursor=pointer]:
+          - /url: product.html?id=53
+          - img "Wall Clock" [ref=e432]
+        - generic [ref=e433]:
+          - heading "Wall Clock" [level=2] [ref=e434]
+          - paragraph [ref=e435]: ₹499
+          - paragraph [ref=e436]: ★ 4.2
+          - link "View Details" [ref=e437] [cursor=pointer]:
+            - /url: product.html?id=53
+      - article [ref=e438]:
+        - link "Electric Grill" [ref=e439] [cursor=pointer]:
+          - /url: product.html?id=54
+          - img "Electric Grill" [ref=e440]
+        - generic [ref=e441]:
+          - heading "Electric Grill" [level=2] [ref=e442]
+          - paragraph [ref=e443]: ₹2,999
+          - paragraph [ref=e444]: ★ 4.4
+          - link "View Details" [ref=e445] [cursor=pointer]:
+            - /url: product.html?id=54
+      - article [ref=e446]:
+        - link "Memory Card 64GB" [ref=e447] [cursor=pointer]:
+          - /url: product.html?id=55
+          - img "Memory Card 64GB" [ref=e448]
+        - generic [ref=e449]:
+          - heading "Memory Card 64GB" [level=2] [ref=e450]
+          - paragraph [ref=e451]: ₹699
+          - paragraph [ref=e452]: ★ 4.6
+          - link "View Details" [ref=e453] [cursor=pointer]:
+            - /url: product.html?id=55
+      - article [ref=e454]:
+        - link "Calculator Scientific" [ref=e455] [cursor=pointer]:
+          - /url: product.html?id=56
+          - img "Calculator Scientific" [ref=e456]
+        - generic [ref=e457]:
+          - heading "Calculator Scientific" [level=2] [ref=e458]
+          - paragraph [ref=e459]: ₹1,299
+          - paragraph [ref=e460]: ★ 4.5
+          - link "View Details" [ref=e461] [cursor=pointer]:
+            - /url: product.html?id=56
+      - article [ref=e462]:
+        - link "LED Strip Lights" [ref=e463] [cursor=pointer]:
+          - /url: product.html?id=57
+          - img "LED Strip Lights" [ref=e464]
+        - generic [ref=e465]:
+          - heading "LED Strip Lights" [level=2] [ref=e466]
+          - paragraph [ref=e467]: ₹599
+          - paragraph [ref=e468]: ★ 4.3
+          - link "View Details" [ref=e469] [cursor=pointer]:
+            - /url: product.html?id=57
+      - article [ref=e470]:
+        - link "Smart Bulb" [ref=e471] [cursor=pointer]:
+          - /url: product.html?id=58
+          - img "Smart Bulb" [ref=e472]
+        - generic [ref=e473]:
+          - heading "Smart Bulb" [level=2] [ref=e474]
+          - paragraph [ref=e475]: ₹799
+          - paragraph [ref=e476]: ★ 4.4
+          - link "View Details" [ref=e477] [cursor=pointer]:
+            - /url: product.html?id=58
+      - article [ref=e478]:
+        - link "Wireless Charger" [ref=e479] [cursor=pointer]:
+          - /url: product.html?id=59
+          - img "Wireless Charger" [ref=e480]
+        - generic [ref=e481]:
+          - heading "Wireless Charger" [level=2] [ref=e482]
+          - paragraph [ref=e483]: ₹1,299
+          - paragraph [ref=e484]: ★ 4.2
+          - link "View Details" [ref=e485] [cursor=pointer]:
+            - /url: product.html?id=59
+      - article [ref=e486]:
+        - link "CCTV Camera" [ref=e487] [cursor=pointer]:
+          - /url: product.html?id=60
+          - img "CCTV Camera" [ref=e488]
+        - generic [ref=e489]:
+          - heading "CCTV Camera" [level=2] [ref=e490]
+          - paragraph [ref=e491]: ₹2,499
+          - paragraph [ref=e492]: ★ 4.4
+          - link "View Details" [ref=e493] [cursor=pointer]:
+            - /url: product.html?id=60
+      - article [ref=e494]:
+        - link "Punching Bag" [ref=e495] [cursor=pointer]:
+          - /url: product.html?id=61
+          - img "Punching Bag" [ref=e496]
+        - generic [ref=e497]:
+          - heading "Punching Bag" [level=2] [ref=e498]
+          - paragraph [ref=e499]: ₹3,499
+          - paragraph [ref=e500]: ★ 4.3
+          - link "View Details" [ref=e501] [cursor=pointer]:
+            - /url: product.html?id=61
+      - article [ref=e502]:
+        - link "Binoculars 10x50" [ref=e503] [cursor=pointer]:
+          - /url: product.html?id=62
+          - img "Binoculars 10x50" [ref=e504]
+        - generic [ref=e505]:
+          - heading "Binoculars 10x50" [level=2] [ref=e506]
+          - paragraph [ref=e507]: ₹1,899
+          - paragraph [ref=e508]: ★ 4.1
+          - link "View Details" [ref=e509] [cursor=pointer]:
+            - /url: product.html?id=62
+      - article [ref=e510]:
+        - link "Induction Cooktop" [ref=e511] [cursor=pointer]:
+          - /url: product.html?id=63
+          - img "Induction Cooktop" [ref=e512]
+        - generic [ref=e513]:
+          - heading "Induction Cooktop" [level=2] [ref=e514]
+          - paragraph [ref=e515]: ₹2,699
+          - paragraph [ref=e516]: ★ 4.5
+          - link "View Details" [ref=e517] [cursor=pointer]:
+            - /url: product.html?id=63
+      - article [ref=e518]:
+        - link "Whiteboard 3x2ft" [ref=e519] [cursor=pointer]:
+          - /url: product.html?id=64
+          - img "Whiteboard 3x2ft" [ref=e520]
+        - generic [ref=e521]:
+          - heading "Whiteboard 3x2ft" [level=2] [ref=e522]
+          - paragraph [ref=e523]: ₹1,299
+          - paragraph [ref=e524]: ★ 4.4
+          - link "View Details" [ref=e525] [cursor=pointer]:
+            - /url: product.html?id=64
+      - article [ref=e526]:
+        - link "Thermal Flask 500ml" [ref=e527] [cursor=pointer]:
+          - /url: product.html?id=65
+          - img "Thermal Flask 500ml" [ref=e528]
+        - generic [ref=e529]:
+          - heading "Thermal Flask 500ml" [level=2] [ref=e530]
+          - paragraph [ref=e531]: ₹799
+          - paragraph [ref=e532]: ★ 4.3
+          - link "View Details" [ref=e533] [cursor=pointer]:
+            - /url: product.html?id=65
+      - article [ref=e534]:
+        - link "WiFi Router 300Mbps" [ref=e535] [cursor=pointer]:
+          - /url: product.html?id=66
+          - img "WiFi Router 300Mbps" [ref=e536]
+        - generic [ref=e537]:
+          - heading "WiFi Router 300Mbps" [level=2] [ref=e538]
+          - paragraph [ref=e539]: ₹1,199
+          - paragraph [ref=e540]: ★ 4.2
+          - link "View Details" [ref=e541] [cursor=pointer]:
+            - /url: product.html?id=66
+      - article [ref=e542]:
+        - link "Curtain Rods" [ref=e543] [cursor=pointer]:
+          - /url: product.html?id=67
+          - img "Curtain Rods" [ref=e544]
+        - generic [ref=e545]:
+          - heading "Curtain Rods" [level=2] [ref=e546]
+          - paragraph [ref=e547]: ₹499
+          - paragraph [ref=e548]: ★ 4
+          - link "View Details" [ref=e549] [cursor=pointer]:
+            - /url: product.html?id=67
+      - article [ref=e550]:
+        - link "Yoga Block" [ref=e551] [cursor=pointer]:
+          - /url: product.html?id=68
+          - img "Yoga Block" [ref=e552]
+        - generic [ref=e553]:
+          - heading "Yoga Block" [level=2] [ref=e554]
+          - paragraph [ref=e555]: ₹349
+          - paragraph [ref=e556]: ★ 4.5
+          - link "View Details" [ref=e557] [cursor=pointer]:
+            - /url: product.html?id=68
+      - article [ref=e558]:
+        - link "Measuring Tape 5m" [ref=e559] [cursor=pointer]:
+          - /url: product.html?id=69
+          - img "Measuring Tape 5m" [ref=e560]
+        - generic [ref=e561]:
+          - heading "Measuring Tape 5m" [level=2] [ref=e562]
+          - paragraph [ref=e563]: ₹299
+          - paragraph [ref=e564]: ★ 4.4
+          - link "View Details" [ref=e565] [cursor=pointer]:
+            - /url: product.html?id=69
+      - article [ref=e566]:
+        - link "Table Fan 400mm" [ref=e567] [cursor=pointer]:
+          - /url: product.html?id=70
+          - img "Table Fan 400mm" [ref=e568]
+        - generic [ref=e569]:
+          - heading "Table Fan 400mm" [level=2] [ref=e570]
+          - paragraph [ref=e571]: ₹1,899
+          - paragraph [ref=e572]: ★ 4.2
+          - link "View Details" [ref=e573] [cursor=pointer]:
+            - /url: product.html?id=70
+      - article [ref=e574]:
+        - link "Selfie Stick Tripod" [ref=e575] [cursor=pointer]:
+          - /url: product.html?id=71
+          - img "Selfie Stick Tripod" [ref=e576]
+        - generic [ref=e577]:
+          - heading "Selfie Stick Tripod" [level=2] [ref=e578]
+          - paragraph [ref=e579]: ₹899
+          - paragraph [ref=e580]: ★ 4.3
+          - link "View Details" [ref=e581] [cursor=pointer]:
+            - /url: product.html?id=71
+      - article [ref=e582]:
+        - link "Lunch Box 3 Tiers" [ref=e583] [cursor=pointer]:
+          - /url: product.html?id=72
+          - img "Lunch Box 3 Tiers" [ref=e584]
+        - generic [ref=e585]:
+          - heading "Lunch Box 3 Tiers" [level=2] [ref=e586]
+          - paragraph [ref=e587]: ₹699
+          - paragraph [ref=e588]: ★ 4.1
+          - link "View Details" [ref=e589] [cursor=pointer]:
+            - /url: product.html?id=72
+      - article [ref=e590]:
+        - link "Extension Cord 4-Way" [ref=e591] [cursor=pointer]:
+          - /url: product.html?id=73
+          - img "Extension Cord 4-Way" [ref=e592]
+        - generic [ref=e593]:
+          - heading "Extension Cord 4-Way" [level=2] [ref=e594]
+          - paragraph [ref=e595]: ₹549
+          - paragraph [ref=e596]: ★ 4.5
+          - link "View Details" [ref=e597] [cursor=pointer]:
+            - /url: product.html?id=73
+      - article [ref=e598]:
+        - link "Drip Irrigation Kit" [ref=e599] [cursor=pointer]:
+          - /url: product.html?id=74
+          - img "Drip Irrigation Kit" [ref=e600]
+        - generic [ref=e601]:
+          - heading "Drip Irrigation Kit" [level=2] [ref=e602]
+          - paragraph [ref=e603]: ₹1,299
+          - paragraph [ref=e604]: ★ 4.2
+          - link "View Details" [ref=e605] [cursor=pointer]:
+            - /url: product.html?id=74
+      - article [ref=e606]:
+        - link "Laptop Sleeve 14 inch" [ref=e607] [cursor=pointer]:
+          - /url: product.html?id=75
+          - img "Laptop Sleeve 14 inch" [ref=e608]
+        - generic [ref=e609]:
+          - heading "Laptop Sleeve 14 inch" [level=2] [ref=e610]
+          - paragraph [ref=e611]: ₹499
+          - paragraph [ref=e612]: ★ 4.6
+          - link "View Details" [ref=e613] [cursor=pointer]:
+            - /url: product.html?id=75
+      - article [ref=e614]:
+        - link "Pencil Case" [ref=e615] [cursor=pointer]:
+          - /url: product.html?id=76
+          - img "Pencil Case" [ref=e616]
+        - generic [ref=e617]:
+          - heading "Pencil Case" [level=2] [ref=e618]
+          - paragraph [ref=e619]: ₹199
+          - paragraph [ref=e620]: ★ 4.3
+          - link "View Details" [ref=e621] [cursor=pointer]:
+            - /url: product.html?id=76
+      - article [ref=e622]:
+        - link "Magnifying Glass" [ref=e623] [cursor=pointer]:
+          - /url: product.html?id=77
+          - img "Magnifying Glass" [ref=e624]
+        - generic [ref=e625]:
+          - heading "Magnifying Glass" [level=2] [ref=e626]
+          - paragraph [ref=e627]: ₹249
+          - paragraph [ref=e628]: ★ 4
+          - link "View Details" [ref=e629] [cursor=pointer]:
+            - /url: product.html?id=77
+      - article [ref=e630]:
+        - link "Bluetooth Aux Adapter" [ref=e631] [cursor=pointer]:
+          - /url: product.html?id=78
+          - img "Bluetooth Aux Adapter" [ref=e632]
+        - generic [ref=e633]:
+          - heading "Bluetooth Aux Adapter" [level=2] [ref=e634]
+          - paragraph [ref=e635]: ₹399
+          - paragraph [ref=e636]: ★ 4.2
+          - link "View Details" [ref=e637] [cursor=pointer]:
+            - /url: product.html?id=78
+      - article [ref=e638]:
+        - link "Digital Alarm Clock" [ref=e639] [cursor=pointer]:
+          - /url: product.html?id=79
+          - img "Digital Alarm Clock" [ref=e640]
+        - generic [ref=e641]:
+          - heading "Digital Alarm Clock" [level=2] [ref=e642]
+          - paragraph [ref=e643]: ₹599
+          - paragraph [ref=e644]: ★ 4.3
+          - link "View Details" [ref=e645] [cursor=pointer]:
+            - /url: product.html?id=79
+      - article [ref=e646]:
+        - link "Notebook A5" [ref=e647] [cursor=pointer]:
+          - /url: product.html?id=80
+          - img "Notebook A5" [ref=e648]
+        - generic [ref=e649]:
+          - heading "Notebook A5" [level=2] [ref=e650]
+          - paragraph [ref=e651]: ₹299
+          - paragraph [ref=e652]: ★ 4.7
+          - link "View Details" [ref=e653] [cursor=pointer]:
+            - /url: product.html?id=80
+      - article [ref=e654]:
+        - link "Rechargeable Fan" [ref=e655] [cursor=pointer]:
+          - /url: product.html?id=81
+          - img "Rechargeable Fan" [ref=e656]
+        - generic [ref=e657]:
+          - heading "Rechargeable Fan" [level=2] [ref=e658]
+          - paragraph [ref=e659]: ₹1,299
+          - paragraph [ref=e660]: ★ 4.1
+          - link "View Details" [ref=e661] [cursor=pointer]:
+            - /url: product.html?id=81
+      - article [ref=e662]:
+        - link "Vacuum Flask" [ref=e663] [cursor=pointer]:
+          - /url: product.html?id=82
+          - img "Vacuum Flask" [ref=e664]
+        - generic [ref=e665]:
+          - heading "Vacuum Flask" [level=2] [ref=e666]
+          - paragraph [ref=e667]: ₹999
+          - paragraph [ref=e668]: ★ 4.4
+          - link "View Details" [ref=e669] [cursor=pointer]:
+            - /url: product.html?id=82
+      - article [ref=e670]:
+        - link "Skipping Rope" [ref=e671] [cursor=pointer]:
+          - /url: product.html?id=83
+          - img "Skipping Rope" [ref=e672]
+        - generic [ref=e673]:
+          - heading "Skipping Rope" [level=2] [ref=e674]
+          - paragraph [ref=e675]: ₹249
+          - paragraph [ref=e676]: ★ 4.5
+          - link "View Details" [ref=e677] [cursor=pointer]:
+            - /url: product.html?id=83
+      - article [ref=e678]:
+        - link "HDMI Splitter" [ref=e679] [cursor=pointer]:
+          - /url: product.html?id=84
+          - img "HDMI Splitter" [ref=e680]
+        - generic [ref=e681]:
+          - heading "HDMI Splitter" [level=2] [ref=e682]
+          - paragraph [ref=e683]: ₹799
+          - paragraph [ref=e684]: ★ 4
+          - link "View Details" [ref=e685] [cursor=pointer]:
+            - /url: product.html?id=84
+      - article [ref=e686]:
+        - link "Webcam Cover" [ref=e687] [cursor=pointer]:
+          - /url: product.html?id=85
+          - img "Webcam Cover" [ref=e688]
+        - generic [ref=e689]:
+          - heading "Webcam Cover" [level=2] [ref=e690]
+          - paragraph [ref=e691]: ₹149
+          - paragraph [ref=e692]: ★ 4.8
+          - link "View Details" [ref=e693] [cursor=pointer]:
+            - /url: product.html?id=85
+      - article [ref=e694]:
+        - link "Sandwich Maker" [ref=e695] [cursor=pointer]:
+          - /url: product.html?id=86
+          - img "Sandwich Maker" [ref=e696]
+        - generic [ref=e697]:
+          - heading "Sandwich Maker" [level=2] [ref=e698]
+          - paragraph [ref=e699]: ₹1,599
+          - paragraph [ref=e700]: ★ 4.3
+          - link "View Details" [ref=e701] [cursor=pointer]:
+            - /url: product.html?id=86
+      - article [ref=e702]:
+        - link "Tool Kit 30pcs" [ref=e703] [cursor=pointer]:
+          - /url: product.html?id=87
+          - img "Tool Kit 30pcs" [ref=e704]
+        - generic [ref=e705]:
+          - heading "Tool Kit 30pcs" [level=2] [ref=e706]
+          - paragraph [ref=e707]: ₹1,999
+          - paragraph [ref=e708]: ★ 4.6
+          - link "View Details" [ref=e709] [cursor=pointer]:
+            - /url: product.html?id=87
+      - article [ref=e710]:
+        - link "Flashlight LED" [ref=e711] [cursor=pointer]:
+          - /url: product.html?id=88
+          - img "Flashlight LED" [ref=e712]
+        - generic [ref=e713]:
+          - heading "Flashlight LED" [level=2] [ref=e714]
+          - paragraph [ref=e715]: ₹499
+          - paragraph [ref=e716]: ★ 4.2
+          - link "View Details" [ref=e717] [cursor=pointer]:
+            - /url: product.html?id=88
+      - article [ref=e718]:
+        - link "USB Wall Charger" [ref=e719] [cursor=pointer]:
+          - /url: product.html?id=89
+          - img "USB Wall Charger" [ref=e720]
+        - generic [ref=e721]:
+          - heading "USB Wall Charger" [level=2] [ref=e722]
+          - paragraph [ref=e723]: ₹699
+          - paragraph [ref=e724]: ★ 4.4
+          - link "View Details" [ref=e725] [cursor=pointer]:
+            - /url: product.html?id=89
+      - article [ref=e726]:
+        - link "Hand Sanitizer 5L" [ref=e727] [cursor=pointer]:
+          - /url: product.html?id=90
+          - img "Hand Sanitizer 5L" [ref=e728]
+        - generic [ref=e729]:
+          - heading "Hand Sanitizer 5L" [level=2] [ref=e730]
+          - paragraph [ref=e731]: ₹899
+          - paragraph [ref=e732]: ★ 4.5
+          - link "View Details" [ref=e733] [cursor=pointer]:
+            - /url: product.html?id=90
+      - article [ref=e734]:
+        - link "Electric Kettle 1L" [ref=e735] [cursor=pointer]:
+          - /url: product.html?id=91
+          - img "Electric Kettle 1L" [ref=e736]
+        - generic [ref=e737]:
+          - heading "Electric Kettle 1L" [level=2] [ref=e738]
+          - paragraph [ref=e739]: ₹749
+          - paragraph [ref=e740]: ★ 4.3
+          - link "View Details" [ref=e741] [cursor=pointer]:
+            - /url: product.html?id=91
+      - article [ref=e742]:
+        - link "Mouse Bungee" [ref=e743] [cursor=pointer]:
+          - /url: product.html?id=92
+          - img "Mouse Bungee" [ref=e744]
+        - generic [ref=e745]:
+          - heading "Mouse Bungee" [level=2] [ref=e746]
+          - paragraph [ref=e747]: ₹599
+          - paragraph [ref=e748]: ★ 4
+          - link "View Details" [ref=e749] [cursor=pointer]:
+            - /url: product.html?id=92
+      - article [ref=e750]:
+        - link "Reading Light" [ref=e751] [cursor=pointer]:
+          - /url: product.html?id=93
+          - img "Reading Light" [ref=e752]
+        - generic [ref=e753]:
+          - heading "Reading Light" [level=2] [ref=e754]
+          - paragraph [ref=e755]: ₹349
+          - paragraph [ref=e756]: ★ 4.4
+          - link "View Details" [ref=e757] [cursor=pointer]:
+            - /url: product.html?id=93
+      - article [ref=e758]:
+        - link "Passport Holder" [ref=e759] [cursor=pointer]:
+          - /url: product.html?id=94
+          - img "Passport Holder" [ref=e760]
+        - generic [ref=e761]:
+          - heading "Passport Holder" [level=2] [ref=e762]
+          - paragraph [ref=e763]: ₹499
+          - paragraph [ref=e764]: ★ 4.5
+          - link "View Details" [ref=e765] [cursor=pointer]:
+            - /url: product.html?id=94
+      - article [ref=e766]:
+        - link "Stapler Heavy Duty" [ref=e767] [cursor=pointer]:
+          - /url: product.html?id=95
+          - img "Stapler Heavy Duty" [ref=e768]
+        - generic [ref=e769]:
+          - heading "Stapler Heavy Duty" [level=2] [ref=e770]
+          - paragraph [ref=e771]: ₹399
+          - paragraph [ref=e772]: ★ 4.2
+          - link "View Details" [ref=e773] [cursor=pointer]:
+            - /url: product.html?id=95
+      - article [ref=e774]:
+        - link "Cooling Pad Laptop" [ref=e775] [cursor=pointer]:
+          - /url: product.html?id=96
+          - img "Cooling Pad Laptop" [ref=e776]
+        - generic [ref=e777]:
+          - heading "Cooling Pad Laptop" [level=2] [ref=e778]
+          - paragraph [ref=e779]: ₹1,299
+          - paragraph [ref=e780]: ★ 4.1
+          - link "View Details" [ref=e781] [cursor=pointer]:
+            - /url: product.html?id=96
+      - article [ref=e782]:
+        - link "Wall Mount TV" [ref=e783] [cursor=pointer]:
+          - /url: product.html?id=97
+          - img "Wall Mount TV" [ref=e784]
+        - generic [ref=e785]:
+          - heading "Wall Mount TV" [level=2] [ref=e786]
+          - paragraph [ref=e787]: ₹999
+          - paragraph [ref=e788]: ★ 4.6
+          - link "View Details" [ref=e789] [cursor=pointer]:
+            - /url: product.html?id=97
+      - article [ref=e790]:
+        - link "Bluetooth Keyboard" [ref=e791] [cursor=pointer]:
+          - /url: product.html?id=98
+          - img "Bluetooth Keyboard" [ref=e792]
+        - generic [ref=e793]:
+          - heading "Bluetooth Keyboard" [level=2] [ref=e794]
+          - paragraph [ref=e795]: ₹1,499
+          - paragraph [ref=e796]: ★ 4.3
+          - link "View Details" [ref=e797] [cursor=pointer]:
+            - /url: product.html?id=98
+      - article [ref=e798]:
+        - link "Wireless Doorbell" [ref=e799] [cursor=pointer]:
+          - /url: product.html?id=99
+          - img "Wireless Doorbell" [ref=e800]
+        - generic [ref=e801]:
+          - heading "Wireless Doorbell" [level=2] [ref=e802]
+          - paragraph [ref=e803]: ₹899
+          - paragraph [ref=e804]: ★ 4.2
+          - link "View Details" [ref=e805] [cursor=pointer]:
+            - /url: product.html?id=99
+      - article [ref=e806]:
+        - link "Car Vacuum Cleaner" [ref=e807] [cursor=pointer]:
+          - /url: product.html?id=100
+          - img "Car Vacuum Cleaner" [ref=e808]
+        - generic [ref=e809]:
+          - heading "Car Vacuum Cleaner" [level=2] [ref=e810]
+          - paragraph [ref=e811]: ₹1,899
+          - paragraph [ref=e812]: ★ 4.4
+          - link "View Details" [ref=e813] [cursor=pointer]:
+            - /url: product.html?id=100
+```

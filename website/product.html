@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product | Zyphroa</title>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Product details - Zyphroa">
+</head>
+<body>
+  <nav class="nav" id="main-nav"></nav>
+  <main class="container">
+    <div id="product-detail" class="product-detail"></div>
+    <div id="product-not-found" class="empty-state" style="display: none;">
+      <p>Product not found.</p>
+      <a href="http://127.0.0.1:5500/website/home.html" class="btn btn-secondary">Back to Home</a>
+    </div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/product.js" defer></script>
+</body>
+</html>

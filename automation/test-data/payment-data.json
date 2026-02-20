@@ -1,0 +1,14 @@
+{
+  "validCard": {
+    "name": "John Doe",
+    "number": "4111111111111111",
+    "expiry": "12/30",
+    "cvv": "123"
+  },
+  "invalidCard": {
+    "name": "John Doe",
+    "number": "1111222233334444",
+    "expiry": "01/20",
+    "cvv": "000"
+  }
+}

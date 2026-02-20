@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Zyphroa</title>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Zyphroa - Shop electronics, home appliances and accessories.">
+</head>
+<body>
+  <nav class="nav" id="main-nav" data-search="1"></nav>
+  <main class="container">
+    <section class="products-section">
+      <div id="products-grid" class="products-grid"></div>
+      <div id="products-empty" class="empty-state" style="display: none;">
+        <p>No products match your search.</p>
+        <button type="button" class="btn btn-secondary" id="clear-search">Clear search</button>
+      </div>
+    </section>
+  </main>
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/home.js" defer></script>
+</body>
+</html>

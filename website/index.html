@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Zyphroa</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Zyphroa - Login or sign up to shop electronics, home appliances and accessories.">
+</head>
+<body>
+  <div class="auth-page">
+    <div class="auth-box">
+      <h1>Zyphroa</h1>
+      <div class="auth-tabs">
+        <button type="button" class="active" data-tab="login">Login</button>
+        <button type="button" data-tab="signup">Sign Up</button>
+      </div>
+      <form id="login-form" class="auth-form">
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" required placeholder="you@example.com" autocomplete="email">
+          <div class="form-error" id="login-email-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" required placeholder="••••••••" autocomplete="current-password">
+          <div class="form-error" id="login-password-error"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      <form id="signup-form" class="auth-form" style="display: none;">
+        <div class="form-group">
+          <label for="signup-email">Email</label>
+          <input type="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+          <div class="form-error" id="signup-email-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="signup-password">Password</label>
+          <input type="password" id="signup-password" required placeholder="••••••••" autocomplete="new-password" minlength="6">
+          <div class="form-error" id="signup-password-error"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Account</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/data.js" defer></script>
+  <script src="js/auth.js" defer></script>
+</body>
+</html>
