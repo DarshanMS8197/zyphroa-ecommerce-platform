@@ -37,12 +37,16 @@ Test with Chrome DevTools → Lighthouse (Performance, Accessibility, Best Pract
 
 
 
-## 🚀 COMPLETE FLOW (From Beginning)
+## 🚀 COMPLETE FLOW 
+
 🔹 STEP 1 — Open Project Folder
 
 ## Open terminal inside your project:
 
 cd C:\Users\Administrator\Downloads\zyphroa
+
+
+
 🔹 STEP 2 — Clean Old Build & Old Allure Results
 
 ## ⚠️ VERY IMPORTANT (to avoid old test cases in report)
@@ -57,32 +61,28 @@ mvn clean
 
 -old reports
 
+
+
 ## 🔹 STEP 3 — Run All Test Cases
 
 ##  To run all tests:
 
 mvn test
 
-
-
 OR
-
-
 
 ## To run only one test class:
 
-mvn test -Dtest=LoginTest
+mvn test -Dtest=ZyphroaTest
 
-OR
-
-## Run multiple classes:
-
-mvn test -Dtest=LoginTest,CartTest
 
 ## After this step:
+
 ## ✔ New results will be generated inside:
 
 target/allure-results
+
+
 
 ## 🔹 STEP 4 — Generate & Open Allure Report (Temporary Server)
 
