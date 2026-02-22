@@ -111,9 +111,12 @@ allure serve target/allure-results
 <img width="1902" height="1138" alt="front (allure)" src="https://github.com/user-attachments/assets/77512051-b8aa-4fb6-9b20-b548ce44d43e" />
 
 
-<img width="1920" height="1200" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/44a9c96e-e467-46b2-9873-f15b3b4c05f0" />
+
+<img width="1920" height="1200" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/0cabec2f-2069-4b30-9a9b-0649436714c1" />
 
 
 
+<img width="1920" height="1200" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/18126354-15ca-4b1a-a628-d20e73ab3c79" />
 
 
+<img width="1920" height="1200" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/6dfd2240-45d0-43e0-8950-595950f489df" />
