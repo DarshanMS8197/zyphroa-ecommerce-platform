@@ -34,3 +34,66 @@ A complete front-end e-commerce site built with **HTML**, **CSS**, and **Vanilla
 - Single CSS file, minimal DOM.
 
 Test with Chrome DevTools → Lighthouse (Performance, Accessibility, Best Practices, SEO) for optimal scores.
+
+
+
+#🚀 COMPLETE FLOW (From Beginning)
+🔹 STEP 1 — Open Project Folder
+
+#Open terminal inside your project:
+
+cd C:\Users\Administrator\Downloads\zyphroa
+🔹 STEP 2 — Clean Old Build & Old Allure Results
+
+#⚠️ VERY IMPORTANT (to avoid old test cases in report)
+
+mvn clean
+
+#This deletes:
+
+target folder
+
+old allure-results
+
+old reports
+
+#🔹 STEP 3 — Run All Test Cases
+
+#To run all tests:
+
+mvn test
+
+
+
+OR
+
+
+
+#To run only one test class:
+
+mvn test -Dtest=LoginTest
+
+OR
+
+#Run multiple classes:
+
+mvn test -Dtest=LoginTest,CartTest
+
+#After this step:
+#✔ New results will be generated inside:
+
+target/allure-results
+
+#🔹 STEP 4 — Generate & Open Allure Report (Temporary Server)
+
+#Now run:
+
+allure serve target/allure-results
+
+#This will:
+
+-Generate report
+
+-Start local server
+
+-Automatically open browser
