@@ -49,9 +49,11 @@ cd C:\Users\Administrator\Downloads\zyphroa
 
 🔹 STEP 2 — Clean Old Build & Old Allure Results
 
-## ⚠️ VERY IMPORTANT (to avoid old test cases in report)
+## ⚠️ VERY IMPORTANT BEFORE GOING TO RUN OPEN THE index.html IN LIVE SERVER LIKE CHROME OR EGDE OR ANY BROWSING WINDOW THEN RUN BELOW COMMEND IN TERMINAL 
 
-mvn clean
+mvn clean  
+or 
+mvn clean test
 
 ## This deletes:
 
