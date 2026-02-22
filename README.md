@@ -108,6 +108,10 @@ allure serve target/allure-results
 
 ## RESULTS
 
+## Graphs 
+
+
+
 <img width="1902" height="1138" alt="front (allure)" src="https://github.com/user-attachments/assets/77512051-b8aa-4fb6-9b20-b548ce44d43e" />
 
 
@@ -115,6 +119,9 @@ allure serve target/allure-results
 
 
 
+
+
+## Suites
 
 
 
@@ -125,6 +132,7 @@ allure serve target/allure-results
 
 
 
+## Overview
 
 
 
