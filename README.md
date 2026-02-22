@@ -45,11 +45,11 @@ Test with Chrome DevTools → Lighthouse (Performance, Accessibility, Best Pract
 cd C:\Users\Administrator\Downloads\zyphroa
 🔹 STEP 2 — Clean Old Build & Old Allure Results
 
-##⚠️ VERY IMPORTANT (to avoid old test cases in report)
+## ⚠️ VERY IMPORTANT (to avoid old test cases in report)
 
 mvn clean
 
-##This deletes:
+## This deletes:
 
 -target folder
 
@@ -57,9 +57,9 @@ mvn clean
 
 -old reports
 
-##🔹 STEP 3 — Run All Test Cases
+## 🔹 STEP 3 — Run All Test Cases
 
-## To run all tests:
+##  To run all tests:
 
 mvn test
 
@@ -69,28 +69,28 @@ OR
 
 
 
-##To run only one test class:
+## To run only one test class:
 
 mvn test -Dtest=LoginTest
 
 OR
 
-##Run multiple classes:
+## Run multiple classes:
 
 mvn test -Dtest=LoginTest,CartTest
 
-##After this step:
-##✔ New results will be generated inside:
+## After this step:
+## ✔ New results will be generated inside:
 
 target/allure-results
 
-##🔹 STEP 4 — Generate & Open Allure Report (Temporary Server)
+## 🔹 STEP 4 — Generate & Open Allure Report (Temporary Server)
 
-##Now run:
+## Now run:
 
 allure serve target/allure-results
 
-##This will:
+## This will:
 
 -Generate report
 
