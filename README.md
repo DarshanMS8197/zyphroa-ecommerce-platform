@@ -101,4 +101,19 @@ allure serve target/allure-results
 
 -Start local server
 
+
 -Automatically open browser
+
+
+
+## RESULTS
+
+<img width="1902" height="1138" alt="front (allure)" src="https://github.com/user-attachments/assets/77512051-b8aa-4fb6-9b20-b548ce44d43e" />
+
+
+<img width="1920" height="1200" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/44a9c96e-e467-46b2-9873-f15b3b4c05f0" />
+
+
+
+
+
