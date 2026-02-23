@@ -73,11 +73,21 @@ jobs:
         run: |
           if [ -d "./automation/test/target/allure-results" ]; then
             echo "allure-results directory found"
-            ls -la ./automation/test/target/allure-results
+            ls -la ./automation/test/target/allure-results/
             allure generate ./automation/test/target/allure-results --clean -o allure-report
           else
             echo "allure-results directory not found, creating empty report"
             mkdir -p allure-report
+            allure generate --clean -o allure-report
+          fi
+          
+          # Verify report was created
+          if [ -f "allure-report/index.html" ]; then
+            echo "✓ Allure report generated successfully"
+            ls -la allure-report/
+          else
+            echo "✗ Failed to generate Allure report"
+            exit 1
           fi
         continue-on-error: true
 
