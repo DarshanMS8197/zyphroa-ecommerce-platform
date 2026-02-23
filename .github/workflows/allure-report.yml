@@ -29,12 +29,18 @@ jobs:
           distribution: "temurin"
           cache: "maven"
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v1
+      - name: Install Chrome and Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          which chromedriver
+          chromedriver --version
 
       - name: Run Tests
         run: mvn clean test
         working-directory: ./automation/test
+        env:
+          CHROMEDRIVER_PATH: /usr/bin/chromedriver
 
       # Install Allure CLI
       - name: Install Allure CLI
