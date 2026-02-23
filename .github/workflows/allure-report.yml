@@ -36,13 +36,12 @@ jobs:
             google-chrome-stable \
             chromium-chromedriver \
             libxss1 \
-            libappindicator1 \
-            libindicator7 \
             fonts-liberation \
             xdg-utils \
             libu2f-udev \
             libvulkan1 \
-            ca-certificates
+            ca-certificates \
+            wget
           which chromedriver
           chromedriver --version
           google-chrome --version
