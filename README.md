@@ -49,10 +49,11 @@ cd C:\Users\Administrator\Downloads\zyphroa
 
 🔹 STEP 2 — Clean Old Build & Old Allure Results
 
-## ⚠️ VERY IMPORTANT BEFORE GOING TO RUN OPEN THE index.html IN LIVE SERVER LIKE CHROME OR EGDE OR ANY BROWSING WINDOW THEN RUN BELOW COMMEND IN TERMINAL GO FOR THE PATH WHERE IS UR TEST.JAVA FILE EXIST RUN BELOW COMMEND FOR THIS PROJECT MY PATH IS <C:\Users\Administrator\Downloads\zyphroa\automation\test >
+## ⚠️ VERY IMPORTANT
+BEFORE GOING TO RUN OPEN THE index.html IN LIVE SERVER LIKE CHROME OR EGDE OR ANY BROWSING WINDOW THEN RUN BELOW COMMEND IN TERMINAL GO FOR THE PATH WHERE IS UR TEST.JAVA FILE EXIST RUN BELOW COMMEND FOR THIS PROJECT MY PATH IS <C:\Users\Administrator\Downloads\zyphroa\automation\test >
 from  this path to C:\Users\Administrator\Downloads\zyphroa\ to go this and this <C:\Users\Administrator\Downloads\zyphroa\automation\test> 
-## use "cd automation" and "cd test" <if you whant to go back to directry from this to <C:\Users\Administrator\Downloads\zyphroa\automation\test> to this <C:\Users\Administrator\Downloads\zyphroa\> use "cd . ."
- for go back to previus path .
+## use "cd automation" and "cd test" 
+<if you whant to go back to directry from this to <C:\Users\Administrator\Downloads\zyphroa\automation\test> to this <C:\Users\Administrator\Downloads\zyphroa\> use "cd . ."  for go back to previus path .
 
 mvn clean  
 or 
