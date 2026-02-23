@@ -46,6 +46,13 @@ jobs:
           chromedriver --version
           google-chrome --version
 
+      - name: Start Web Server
+        run: |
+          cd website
+          python3 -m http.server 5500 &
+          sleep 2
+        continue-on-error: true
+
       - name: Run Tests
         run: mvn clean test -DskipTests=false -Dmaven.test.failure.ignore=true
         working-directory: ./automation/test
