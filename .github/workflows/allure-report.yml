@@ -55,7 +55,7 @@ jobs:
         continue-on-error: true
 
       - name: Run Tests
-        run: mvn clean test -DskipTests=false -Dmaven.test.failure.ignore=true
+        run: mvn clean test -DskipTests=false -Dmaven.test.failure.ignore=true -Dallure.results.directory=target/allure-results
         working-directory: ./automation/test
         env:
           CHROMEDRIVER_PATH: /usr/bin/chromedriver
