@@ -131,7 +131,7 @@ public class ZyphroaTest {
     WebDriver driver;
     WebDriverWait wait;
 
-    String BASE_URL = "http://127.0.0.1:5500/website/";
+    String BASE_URL = "http://127.0.0.1:5500/";
 
     @BeforeClass
     public void setup() {

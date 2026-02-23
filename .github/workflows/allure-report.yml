@@ -48,9 +48,10 @@ jobs:
 
       - name: Start Web Server
         run: |
-          cd website
-          python3 -m http.server 5500 &
-          sleep 2
+          cd ${{ github.workspace }}/website
+          python3 -m http.server 5500 > /tmp/server.log 2>&1 &
+          sleep 3
+          echo "Web server started"
         continue-on-error: true
 
       - name: Run Tests
@@ -69,7 +70,15 @@ jobs:
 
       # Generate Allure Report
       - name: Generate Allure Report
-        run: allure generate ./automation/test/target/allure-results --clean -o allure-report
+        run: |
+          if [ -d "./automation/test/target/allure-results" ]; then
+            echo "allure-results directory found"
+            ls -la ./automation/test/target/allure-results
+            allure generate ./automation/test/target/allure-results --clean -o allure-report
+          else
+            echo "allure-results directory not found, creating empty report"
+            mkdir -p allure-report
+          fi
         continue-on-error: true
 
       - name: Upload Pages Artifact
