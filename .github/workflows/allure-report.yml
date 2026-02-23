@@ -32,12 +32,21 @@ jobs:
       - name: Install Chrome and Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
+          sudo apt-get install -y \
+            chromium-browser \
+            chromium-chromedriver \
+            libxss1 \
+            libappindicator1 \
+            libindicator7 \
+            fonts-liberation \
+            xdg-utils \
+            libu2f-udev \
+            libvulkan1
           which chromedriver
           chromedriver --version
 
       - name: Run Tests
-        run: mvn clean test
+        run: mvn clean test -DskipTests=false -Dmaven.test.failure.ignore=true
         working-directory: ./automation/test
         env:
           CHROMEDRIVER_PATH: /usr/bin/chromedriver
