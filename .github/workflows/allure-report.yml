@@ -33,7 +33,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            chromium-browser \
+            google-chrome-stable \
             chromium-chromedriver \
             libxss1 \
             libappindicator1 \
@@ -41,15 +41,19 @@ jobs:
             fonts-liberation \
             xdg-utils \
             libu2f-udev \
-            libvulkan1
+            libvulkan1 \
+            ca-certificates
           which chromedriver
           chromedriver --version
+          google-chrome --version
 
       - name: Run Tests
         run: mvn clean test -DskipTests=false -Dmaven.test.failure.ignore=true
         working-directory: ./automation/test
         env:
           CHROMEDRIVER_PATH: /usr/bin/chromedriver
+          CHROME_BIN: /usr/bin/google-chrome
+          CHROMIUM_FLAGS: "--headless --no-sandbox --disable-dev-shm-usage --disable-gpu --disable-web-security --allow-running-insecure-content"
 
       # Install Allure CLI
       - name: Install Allure CLI
