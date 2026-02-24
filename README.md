@@ -1,3 +1,15 @@
+## Selenium Automation Project
+
+## TestNG Framework
+
+## Maven Project
+
+## Allure Report Integration
+
+## CI/CD GitHub Actions
+
+## JMeter Performance Testing
+
 # Zyphroa – E-commerce Website
 
 A complete front-end e-commerce site built with **HTML**, **CSS**, and **Vanilla JavaScript**. No backend or frameworks; all data is stored in **Local Storage**.
